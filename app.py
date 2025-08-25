@@ -23,7 +23,7 @@ def main():
     st.markdown("Generate multiple-choice and true/false questions from your documents using AI")
     
     # Get API key from environment
-    api_key = os.getenv("GEMINI_API_KEY")
+    api_key = os.getenv("AIzaSyDboX5SaecO6ne1HYitZK1wFc8618qEEUE")
     
     if not api_key:
         st.error("❌ Gemini API key not found. Please contact support.")
